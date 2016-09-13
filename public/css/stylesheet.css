@@ -1,0 +1,184 @@
+/* Other than the arbitrary color #33adff (denoted in lower case),
+*	colors have been taken from the IBM Swatch book:
+*	https://www.ibm.com/design/language/resources/swatchbook
+*/
+
+/* Universal */
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+    padding-top: 70px;
+	margin-bottom: 100px;
+	background: #152935;
+}
+
+/* Spacing */
+.margin-top {
+	margin-top: 50px;
+}
+
+/* Typography */
+
+h2, h3, h4, h5, h6 {
+	line-height: 1;
+	color: #7CC7FF;
+}
+
+h1 {
+	line-height: 1;
+	font-size: 3em;
+	margin-bottom: 30px;
+	letter-spacing: 3px;
+	color: #33adff;
+}
+
+h1.main {
+	font-size: 4em;
+}
+
+h2 {
+	margin-top: 40px;
+}
+
+h3, h4, h5, h6 {
+	margin-top: 30px;
+}
+
+.white {
+	color: #DFE9E9;
+}
+
+.highlight {
+	color: #33adff !important;
+}
+
+p {
+	color: #DFE9E9;
+	font-size: 1.25em;
+	line-height: 1.7em;
+}
+
+a {
+	color: inherit;
+}
+
+a:visited, a:focus {
+	color: inherit;
+	text-decoration: none;
+}
+
+a:hover, i:hover, a:hover * {
+	text-decoration: none;
+	color: #33adff;
+}
+
+.members li {
+	color: #DEF9E9;
+	font-size: 1.3em;
+	line-height: 1.5em;
+}
+
+/* header */
+
+#logo {
+	margin-right: 10px;
+	font-size: 1.5em;
+	color: #fff;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+#logo:hover {
+	color: #33adff;
+	text-decoration: none;
+}
+
+.navbar-inverse {
+	color: #1A1314;
+}
+
+.navbar-inverse .navbar-nav li a {
+	color: #E9E0E0;
+}
+
+.navbar-inverse .navbar-nav li a:hover {
+	color: #33adff;
+}
+
+.navbar li {
+	font-size: 1.2em;
+}
+
+/* Projects */
+
+.projects .fa.large {
+	font-size: 7em;
+}
+
+.projects .fa {
+	margin: 20px 1em;
+}
+
+/* Footer */
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	/* Set the fixed height of the footer here */
+	height: 70px;
+	background-color: #504646;
+}
+
+footer .text-muted {
+	margin: 20px 0;
+	color: #B8AEAE;
+}
+
+footer .text-muted a {
+	color: #D0C7C7;
+}
+
+footer .text-muted a:hover {
+	color: #33adff;
+}
+
+footer ul {
+	color: #D0C7C7;
+	float: right;
+	list-style: none;
+}
+
+footer ul li {
+	margin-top: 20px;
+	float: left;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+/* Panel Styles */
+.panel-body small {
+	margin-top: 50px;
+}
+
+/* Form Styles */
+label {
+	float: left;
+}
+
+.submit-button {
+	float: right;
+}
+
+.idea-form {
+	margin: 5em auto;
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .mobile-collapse {
+        display: none;
+    }
+}
