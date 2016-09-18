@@ -29,9 +29,11 @@ app.use('/about', about);
 app.use('/members', members);
 app.use('/contact', contact);
 
-var localPort = 8745; //non CF port
+var localPort = 9080; //non CF port
 
 // start server
 app.listen(localPort, '0.0.0.0', function() {
-  console.log("server starting on " + localPort);
+  console.log("Web team server starting on " + localPort);
 });
+
+module.exports.app = app;
